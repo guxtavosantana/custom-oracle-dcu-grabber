@@ -1,5 +1,11 @@
 # Custom Oracle DCU Grabber
  Script to download content from Oracle Commerce Cloud using the Oracle DCU.
+ If for some reason the folders inside ```widget```, ```element``` or other folders you downloaded with the DCU cli are empty, you can try using this script to grab all source data that is listed at the DCU folder architecture you downloaded, example: element, widget, global, theme, etc.  
+
+Essentially it lists the folders inside a given directory and runs ``` dcu --grab ``` for each folder.
+
+Example: ```dcu --grab "widget/Account Details" -n <node> -k <key>```
+
 
 ## Oracle Design Code Utility (DCU)
 The dcu is the core code and metadata synchronization utility, which allows you to grab all of the user modifiable source code and metadata from a Commerce Cloud server, edit it as necessary in your chosen tool, and then upload it back to the server. The utilities also makes it possible to transfer content between Commerce Cloud server instances.
