@@ -1,4 +1,4 @@
-# Custon Oracle DCU Grabber
+# Custom Oracle DCU Grabber
  Script to download content from Oracle Commerce Cloud using the Oracle DCU.
 
 ## Oracle Design Code Utility (DCU)
