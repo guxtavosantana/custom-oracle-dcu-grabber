@@ -15,16 +15,14 @@ First you need to try grabbing the content using only the dcu cli (--grab), if y
 
 Inside the repository root folder, run:
 
-``` yarn intall  ```
-or
-``` npm install ```
+``` yarn intall ``` or ``` npm install ```
 
 ---  
 
 Create a .env file at the root folder and put the following constants:
 ```
 ADMIN_URL = 'URL'  
-APP_KEY = 'Commerce Cloud Login API Key'  
+APP_KEY = 'Oracle Commerce Cloud Login API Key'  
 FOLDER_PATH = '../element'  
 FOLDER_NAME = 'element'
 ```
