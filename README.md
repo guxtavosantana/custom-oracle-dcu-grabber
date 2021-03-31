@@ -1,5 +1,6 @@
 # Custom Oracle DCU Grabber
- Script to download content from Oracle Commerce Cloud using the Oracle DCU.
+ Script to download content from Oracle Commerce Cloud using the Oracle DCU.  
+ 
  If for some reason the folders inside ```widget```, ```element``` or other folders you downloaded with the DCU cli are empty, you can try using this script to grab all source data that is listed at the DCU folder architecture you downloaded, example: element, widget, global, theme, etc.  
 
 Essentially it lists the folders inside a given directory and runs ``` dcu --grab ``` for each folder.
