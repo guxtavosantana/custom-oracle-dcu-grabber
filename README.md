@@ -7,7 +7,7 @@ The dcu is the core code and metadata synchronization utility, which allows you 
 ## Dependences
 Make sure you have the DCU installed globally on your PC.
 
-## Runnign the script
+## Running the script
 
 First you need to try grabbing the content using only the dcu cli (--grab), if you get an error and the content wasn't downloaded right, keep the data you downloaded and use the following steps.
 
