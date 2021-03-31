@@ -26,7 +26,7 @@ APP_KEY = 'Oracle Commerce Cloud Login API Key'
 FOLDER_PATH = '../element'  
 FOLDER_NAME = 'element'
 ```
-These constants will be used to ```--grab``` the data using the **Custon Oracle DCU Grabber**
+These constants will be used to ```--grab``` the data using the **Custom Oracle DCU Grabber**
 
 ---
 
