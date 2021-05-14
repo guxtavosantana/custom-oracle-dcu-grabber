@@ -28,9 +28,9 @@ Inside the repository root folder, run:
 
 Create a .env file at the root folder and put the following constants:
 ```
-ADMIN_URL = 'URL'  
+ADMIN_URL = https://cx-commerce-admin-url.com
 APP_KEY = 'Oracle Commerce Cloud Login API Key'  
-FOLDER_PATH = '../element'  
+FOLDER_PATH = '../element'
 FOLDER_NAME = 'element'
 ```
 These constants will be used to ```--grab``` the data using the **Custom Oracle DCU Grabber**
